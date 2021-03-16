@@ -1,0 +1,27 @@
+.social {
+    text-align: center;
+    padding: 25px;
+}
+
+.social a {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+
+.social a:hover {
+    transform: translateY(-2px);
+    background-color: var(--secondary);
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 540px) {
+    .social {
+        padding: 0;
+    }
+    .social a {
+        margin: 0.5rem;
+    }
+}
+

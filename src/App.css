@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+:root {
+  background-color: whitesmoke;
+}
+
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url("./components/fonts/CaviarDreams.ttf") format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+:root {
+  --primary:#83ABA3;
+  --darkGreen: #709990;
+  --secondary: #DDE522;
+  --tertiary: #5A5A5A;
+  --quaternary: rgba(138, 173, 165, 0.274);
+  --quinary: #f5f5f5;
+}
+
