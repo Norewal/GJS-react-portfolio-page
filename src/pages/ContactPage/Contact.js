@@ -1,16 +1,7 @@
 import React from 'react';
 import './Contact.css';
-
-import { CgMail } from 'react-icons/cg';
-import { AiOutlineBehance } from 'react-icons/ai';
-import { TiSocialLinkedin, TiSocialFacebook } from 'react-icons/ti'
-import { RiGithubLine } from 'react-icons/ri';
-import { Button } from '../../components/Button';
-
 import Social from "../../components/Social";
 import Form from "../../components/Form";
-
-import Aos from "aos";
 import "aos/dist/aos.css";
 
 function Contact() {

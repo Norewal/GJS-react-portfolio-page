@@ -1,7 +1,5 @@
 import React from 'react';
 import "./HeroSection.css";
-
-import Aos from "aos";
 import "aos/dist/aos.css";
 
 function HeroSection({
