@@ -1,11 +1,14 @@
 .home__hero-section {
   color: var(--primary);
   height: 92vh;
-  background-image: url("./1.jpg");
+  background-image: url('./1.jpg');
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .home__hero-container {
@@ -54,8 +57,8 @@
   font-size: 3.4rem;
   line-height: 1.1;
   color: #83aba3;
-  font-family: "Caviar Dreams", "Lucida Sans", "Lucida Sans Regular",
-    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Caviar Dreams', 'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .dark {
@@ -64,7 +67,7 @@
 
 .darkBg {
   background-color: #1c2237;
-  background-image: url("./1.jpg");
+  background-image: url('./1.jpg');
 }
 
 .home__hero-subtitle {
