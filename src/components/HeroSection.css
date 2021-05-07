@@ -1,7 +1,12 @@
 .home__hero-section {
+  z-index: -1;
+  top: 0;
+  left: 0;
   color: var(--primary);
-  height: 92vh;
-  background-image: url('./1.gif');
+  height: 95vh;
+  width: 100%;
+  background-size: 100%;
+  background-image: url('./1.jpg');
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
