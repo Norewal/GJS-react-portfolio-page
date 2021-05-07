@@ -1,14 +1,17 @@
 .home__hero-section {
   color: var(--primary);
   height: 92vh;
-  background-image: url('./1.png');
+  width: 100vw;
+  /*background-image: url('./1.png');
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
+  background: url('./1.png') no-repeat fixed top;
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .home__hero-container {
