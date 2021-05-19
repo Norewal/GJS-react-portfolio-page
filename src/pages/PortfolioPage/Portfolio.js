@@ -24,6 +24,8 @@ function createCard(project) {
             link1={project.link1}
             buttonLabel2={project.buttonLabel2}
             link2={project.link2}
+            buttonLabel3={project.buttonLabel3}
+            link3={project.link3}
         />
     );
 }
