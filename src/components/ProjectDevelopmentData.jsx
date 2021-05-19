@@ -3,7 +3,7 @@ const developmentProjects = [
         id: 1,
         projectTitle: "Personal Portfolio Page",
         imgURL: "./images/Projects/development/TB.jpg",
-        description: "A responsive personal website for a professional bioanalylist. This project designed and created by me.",
+        description: "A responsive personal website for a professional bioanalyst. This project designed and created by me.",
         subTitle: "Created with",
         subDescription: "React, Gatsby",
         buttonLabel: "",
