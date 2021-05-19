@@ -9,7 +9,9 @@ const designProjects = [
         buttonLabel: "View on Behance",
         link1: "https://www.behance.net/gallery/111387213/A-team-collaboration-platform?",
         buttonLabel2: "",
-        link2: ""
+        link2: "",
+        buttonLabel3: "",
+        link3: ""
     },
     {
         id: 2,
@@ -21,7 +23,9 @@ const designProjects = [
         buttonLabel: "View on Behance",
         link1: "https://www.behance.net/gallery/98945899/First-project-Furniture-Store",
         buttonLabel2: "",
-        link2: ""
+        link2: "",
+        buttonLabel3: "",
+        link3: ""
     },
     {
         id: 3,
@@ -33,7 +37,9 @@ const designProjects = [
         buttonLabel: "View on Behance",
         link1: "https://www.behance.net/gallery/106599779/Landing-page-design",
         buttonLabel2: "",
-        link2: ""
+        link2: "",
+        buttonLabel3: "",
+        link3: ""
     },
     {
         id: 4,
@@ -45,7 +51,9 @@ const designProjects = [
         buttonLabel: "View on Behance",
         link1: "https://www.behance.net/gallery/104317453/Landing-page-design?tracking_source=project_owner_other_projects",
         buttonLabel2: "",
-        link2: ""
+        link2: "",
+        buttonLabel3: "",
+        link3: ""
     },
     {
         id: 5,
@@ -57,7 +65,9 @@ const designProjects = [
         buttonLabel: "View on Behance",
         link1: "https://www.behance.net/gallery/106684345/Landing-page-design?tracking_source=project_owner_other_projects",
         buttonLabel2: "",
-        link2: ""
+        link2: "",
+        buttonLabel3: "",
+        link3: ""
     }
 
 ];

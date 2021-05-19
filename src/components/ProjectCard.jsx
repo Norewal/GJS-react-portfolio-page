@@ -54,10 +54,34 @@ function Card(props) {
                             </div>
                         </CardActions> */}
                         
-                            <button className="btn-green" type="button" onClick={() => {window.open(props.link1)}}><Detail detailInfo={props.buttonLabel} /></button>
+                            <button 
+                                className="btn-green" 
+                                type="button" 
+                                onClick={() => {window.open(props.link1)}}
+                                style={{display: props.buttonLabel === "" ? "none" : "inline"}}
+                            >
+                                <Detail detailInfo={props.buttonLabel} />
+                            </button>
                             
                             <div style={{display: props.buttonLabel2 === "" ? "none" : "inline"}}>
-                                <button className="btn-white" type="button" onClick={() => {window.open(props.link2)}}><Detail detailInfo={props.buttonLabel2} /></button>
+                                <button 
+                                    className="btn-white" 
+                                    type="button" 
+                                    onClick={() => {window.open(props.link2)}}
+                                >
+                                    <Detail detailInfo={props.buttonLabel2} />
+                                </button>
+                            </div>
+
+                            <div style={{display: props.buttonLabel3 === "" ? "none" : "inline"}}>
+                                <button 
+                                    className="btn-yellow" 
+                                    type="button" 
+                                    onClick={() => {window.open(props.link3)}}
+                                    disabled="false"
+                                >
+                                    <Detail detailInfo={props.buttonLabel3} />
+                                </button>
                             </div>
                         
                     </div>

@@ -9,7 +9,9 @@ const webFlowProjects = [
         buttonLabel: "Live View",
         link1: "https://gabriellas-portfolio-website.webflow.io/",
         buttonLabel2: "",
-        link2: ""
+        link2: "",
+        buttonLabel3: "",
+        link3: ""
     },
     {
         id: 2,
@@ -19,9 +21,11 @@ const webFlowProjects = [
         subTitle: "",
         subDescription: "",
         buttonLabel: "Live View",
-        link1: "",
+        link1: "https://teamwebsite.webflow.io/",
         buttonLabel2: "",
-        link2: ""
+        link2: "",
+        buttonLabel3: "",
+        link3: ""
     },
     {
         id: 3,
@@ -33,7 +37,9 @@ const webFlowProjects = [
         buttonLabel: "Live View",
         link1: "https://chatapp-v1.webflow.io/",
         buttonLabel2: "",
-        link2: ""
+        link2: "",
+        buttonLabel3: "",
+        link3: ""
     }
 
 ];
