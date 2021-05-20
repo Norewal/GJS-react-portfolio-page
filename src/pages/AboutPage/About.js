@@ -87,28 +87,35 @@ function About() {
                                     <li>Webflow</li>  
                                 </ul>   
                             </div>
+                            <div className="skills-wrapper">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li> 
+                                    <li>SASS</li>  
+                                </ul>   
+                            </div>
                         </div>
 
                         <div className="technical-skills-box coding">
                             <div className="skills-wrapper">
                                 <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>Javascript</li> 
-                                </ul>   
-                            </div>
-                            <div className="skills-wrapper">
-                                <ul>
                                     <li>Bootstrap</li>
+                                    <li>Javascript</li>
                                     <li>React</li> 
-                                    <li>Node.js</li>  
                                 </ul>   
                             </div>
                             <div className="skills-wrapper">
                                 <ul>
-                                    <li>Git & Github</li>
-                                    <li>Postman</li> 
+                                    <li>Gatsby</li>
+                                    <li>Node.js</li> 
                                     <li>MongoDB</li>  
+                                </ul>   
+                            </div>
+                            <div className="skills-wrapper">
+                                <ul>
+                                    <li>Postman</li>
+                                    <li>Git & Github</li> 
+                                    <li>Visual Studio</li>  
                                 </ul>   
                             </div>
                         </div>
