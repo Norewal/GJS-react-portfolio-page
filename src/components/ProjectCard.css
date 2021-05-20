@@ -49,8 +49,9 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 0px 5px 0px 7px;
-  padding: 13px 15px 0px;
+  font-size: 16px;
+  margin: 4px 5px 5px 7px;
+  padding: 18px 15px 3px 15px;
   transition-duration: 0.4s;
   outline: none;
 }
@@ -70,11 +71,19 @@
   text-transform: uppercase;
 }
 
+.btn-yellow > .info {
+  line-height: 0;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 380px) {
   .btn-green {
     width: 100%;
   }
   .btn-white {
+    width: 100%;
+  }
+  .btn-yellow {
     width: 100%;
   }
 }
