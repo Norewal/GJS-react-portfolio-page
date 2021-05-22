@@ -13,11 +13,20 @@
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed !important;
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-image: url('./1.jpg');
+  @supports (-webkit-touch-callout: inherit) {
+    background-attachment: scroll;
+  }
+}
+
+.home__hero-section {
+  @supports (-webkit-touch-callout: inherit) {
+    background-attachment: scroll;
+  }
 }
 
 .home__hero-container {
