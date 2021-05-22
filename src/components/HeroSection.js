@@ -14,7 +14,7 @@ function HeroSection({
     return (
     <>
         <div className={lightBg ? "home__hero-section" : "hero__hero-section darkBg"}>
-            <div className="container home__hero-container">
+            <div className="container home__hero-container" style={{background:"url('./1.jpg')"}}>
                 <div className="home__hero-text-wrapper" data-aos="fade-right">
                     <div className="top-line">{topLine}</div>
                     <h1 className={lightText ? "heading" : "heading dark"}>{headline}{bigHeadline}</h1>
