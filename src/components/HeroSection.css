@@ -1,5 +1,4 @@
 .home__hero-section {
-  z-index: 1;
   top: 0;
   left: 0;
   background-color: var(--quinary);
@@ -18,6 +17,7 @@
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-image: url('./1.jpg');
+  z-index: -1;
 }
 
 .home__hero-container {
@@ -32,6 +32,18 @@
   max-width: 540px;
   padding-top: 80px;
   padding-bottom: 60px;
+}
+
+.home__hero-text-wrapper::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.2);
+  background-size: 100%;
+  z-index: -1;
 }
 
 .top-line {
