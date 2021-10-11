@@ -7,11 +7,11 @@ const developmentProjects = [
       'A responsive personal website for a professional bioanalyst. This project designed and created by me.',
     subTitle: 'Created with',
     subDescription: 'React, Gatsby',
-    buttonLabel: '',
-    link1: '',
+    buttonLabel: 'Live View',
+    link1: 'https://www.tiborborsos.com/',
     buttonLabel2: '',
     link2: '',
-    buttonLabel3: 'COMING SOON',
+    buttonLabel3: '',
     link3: '',
   },
   {
@@ -35,7 +35,7 @@ const developmentProjects = [
     projectTitle: 'Art Gallery',
     imgURL: './images/Projects/development/judit1.jpg',
     description:
-      'A responsive personal art gallery website. This project designed and created by me.',
+      'Judit Tamas is a hobby artist, who has many beautiful works of art with different techniques. This website shows her and her world.',
     subTitle: 'Created with',
     subDescription: 'HTML, CSS, Javascript',
     buttonLabel: 'Live View',
