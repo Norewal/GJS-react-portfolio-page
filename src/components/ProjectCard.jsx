@@ -96,7 +96,7 @@ function Card(props) {
                 onClick={() => {
                   window.open(props.link3);
                 }}
-                disabled='false'
+                disabled={false}
               >
                 <Detail detailInfo={props.buttonLabel3} />
               </button>
